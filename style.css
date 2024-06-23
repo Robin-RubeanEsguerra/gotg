@@ -1,0 +1,97 @@
+.box-container {
+  width: 100%;
+}
+
+.title-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#announce_current_player {
+  width: 100%;
+}
+.announce {
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .announce {
+    font-size: 15px;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding: 0.7rem;
+    width: 100%;
+  }
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.fight-container {
+  height: 150px;
+  flex-direction: row;
+  display: flex;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.center-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-danger {
+  padding: 0.5rem;
+}
+.col-sm {
+  border: solid 1px black;
+}
+
+.red,
+.blue {
+  font-size: 15px;
+  width: 120px;
+  height: 120px;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.red:hover,
+.blue:hover {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.red {
+  background-color: rgb(255, 96, 96);
+}
+
+.red:hover {
+  background-color: rgb(233, 75, 75);
+}
+.blue {
+  background-color: rgba(90, 208, 255, 0.829);
+}
+
+.blue:hover {
+  background-color: rgba(85, 184, 223, 0.829);
+}
+img {
+  width: 70px;
+}
+
+#blue_player_container:hover,
+#red_player_container:hover {
+  cursor: pointer;
+}
